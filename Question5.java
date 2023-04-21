@@ -29,7 +29,7 @@ public class Question5
      
     int[] arr={};
     Scanner in = new Scanner(System.in);
-    System.out.println("Enter a number: ");
+    //System.out.println("Enter a number: ");
     int num = in.nextInt(); //read user input (int)
     for (int i = 0; i<num; i++) {
       arr = Arrays.copyOf(arr, arr.length + 1); //replace original array and add extra slot
@@ -52,6 +52,6 @@ public class Question5
          }
       }
 
-    System.out.println("Mode: "+maxValue);
+    System.out.println(maxValue);
   }
 }
